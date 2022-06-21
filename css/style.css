@@ -4,9 +4,36 @@
 .row div{
     border: 1px solid black;
 }
+img{
+    width: 100%;
+}
+#description h3{
+    font-size: 18px;
+}
 #off-percentage{
     background-color: red;
     border-radius: 5px;
     width: 100%;
     display: inline-block;
+}
+
+#price div:nth-child(2){
+    padding: 0;
+    margin: 0;
+}
+#price p{
+    margin: 0;
+    text-align: center;
+    float: left;
+}
+#enter-price input{
+    background-color: red;
+    width: 35%;
+    margin-right: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+}
+#right-col .col-1{
+    padding: 0;
 }
