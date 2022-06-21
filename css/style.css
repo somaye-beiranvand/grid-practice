@@ -1,8 +1,18 @@
-.container-lg{
-    border: 1px solid black;
+.container .row:first-child{
+    padding: 20px 0;
 }
-.row div{
-    /* border: 1px solid black; */
+.container{
+    border-top: 2px solid #E23E57;
+}
+#right-col .row:last-child{
+    margin-top: 10px;
+}
+#right-col .row:first-child{
+    padding: 0;
+    margin: 0;
+}
+#description{
+    margin-bottom: 40px !important;
 }
 img{
     width: 100%;
@@ -11,10 +21,11 @@ img{
     font-size: 18px;
 }
 #off-percentage{
-    background-color: red;
-    border-radius: 5px;
+    background-color: #E23E57;
+    border-radius: 14px;
     width: 100%;
     display: inline-block;
+    color: #F6F6F6;
 }
 
 #price div:nth-child(2){
@@ -27,18 +38,21 @@ img{
     float: left;
 }
 #enter-price input{
-    background-color: red;
+    background-color: #E23E57;
     width: 35%;
     margin-right: auto;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 12px;
+    padding-bottom: 12px;
     border-radius: 5px;
+    border: 0px;
+    color: #F6F6F6;
+    margin-top: 20px;
 }
-#right-col .col-1{
+#left-col .col-1{
     padding: 0;
 }
-#right-col .row{ 
-    padding: 10px 10px;
+#left-col .row{ 
+    padding: 15px 20px 15px 0px;
     margin: 0;
 }
 .speech-bubble {
