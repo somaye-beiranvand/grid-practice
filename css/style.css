@@ -37,7 +37,47 @@ img{
 #right-col .col-1{
     padding: 0;
 }
-#right-col .row{
-    padding-top: 2%;
-    padding-bottom: 2%;
+#right-col .row{ 
+    padding: 10px 10px;
+    margin: 0;
 }
+.speech-bubble {
+    position:relative;
+    width: 100%;
+    padding: 10px;
+    margin: 0;
+    background-color:#FFF;
+    color: #666;
+    font: normal 12px "Segoe UI", Arial, Sans-serif;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    border: 3px solid #F47C7C !important;
+}
+.speech-bubble p {
+    font-size: 1.25em;
+}
+
+.speech-bubble:before,
+.speech-bubble:after {
+    content: "\0020";
+    display:block;
+    position:absolute;
+    top: 16px;
+    left: 408px;
+    z-index:2;
+    width: 0;
+    height: 0;
+    overflow:hidden;
+    border: solid 6px transparent;
+    border-right: 0;
+    border-left-color:#fff;
+}
+.speech-bubble:before {
+    top: 16px;
+    left: 411px;
+    z-index:1;
+    border-left-color:#F47C7C;      
+}
+
+
