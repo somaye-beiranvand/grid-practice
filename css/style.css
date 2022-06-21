@@ -4,3 +4,9 @@
 .row div{
     border: 1px solid black;
 }
+#off-percentage{
+    background-color: red;
+    border-radius: 5px;
+    width: 100%;
+    display: inline-block;
+}
