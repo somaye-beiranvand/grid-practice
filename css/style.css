@@ -2,7 +2,7 @@
     border: 1px solid black;
 }
 .row div{
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 img{
     width: 100%;
@@ -63,8 +63,8 @@ img{
     content: "\0020";
     display:block;
     position:absolute;
-    top: 16px;
-    left: 408px;
+    top: 40%;
+    left: 100%;
     z-index:2;
     width: 0;
     height: 0;
@@ -74,8 +74,8 @@ img{
     border-left-color:#fff;
 }
 .speech-bubble:before {
-    top: 16px;
-    left: 411px;
+    top: 40%;
+    left: 100.5%;
     z-index:1;
     border-left-color:#F47C7C;      
 }
